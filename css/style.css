@@ -9,8 +9,10 @@ header{
     padding: 24px 0;
 }
 .container{
-    max-width: 1168px;
+    max-width: 1188px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header .container{
     display: flex;
@@ -432,9 +434,38 @@ font-style: normal;
 
 /*SECTION&HELP*/
 
+.menu__btn{
+    width: 40px;
+    height: 30px;
+    display: none;
+}
 
+.menu__btn span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #ffff;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+.menu__btn::after,
+.menu__btn::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #ffff;
+    left: 0;
+}
 
+.menu__btn::before{
+    top: 0;
+}
 
+.menu__btn::after{
+    bottom: 0;
+}
 
 
 
