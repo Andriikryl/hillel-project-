@@ -1,6 +1,61 @@
-@media only screen and (max-width: 1024px) {
+
+
+@media only screen and (max-width: 1200px){
+
+   .inner__about__us{
+      justify-content: center;
+   }
+
 
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+   .main__baner .container h1{
+      font-size: 18px;
+      animation-name: titel-1;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+
+   }
+
+   @keyframes titel-1 {
+      0%{
+         transform: scale(1);
+      }
+      100%{
+         transform: scale(4);
+      }
+   }
+   .inner__about__us{
+      justify-content: center;
+   }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 992px) {
 
 }
@@ -27,6 +82,104 @@
         right: 10px;
         top: 25px;
      }
+
+     .main__baner .container h3{
+      animation-name: anim-1;
+      animation-duration: 1s;
+     }
+
+     @keyframes anim-1 {
+      0%{
+         transform: translateX(-3000px);
+      }
+
+      50%{
+         transform: translateX(100px);
+      }
+
+      100%{
+         transform: translateX(0);
+      }
+
+     }
+
+     .main__baner .container h1{
+      animation-name: anim-2;
+      animation-duration: 1s;
+     }
+
+     @keyframes anim-2 {
+      0%{
+         transform: translateY(-3000px);
+      }
+
+      50%{
+         transform: translateY(100px);
+      }
+
+      100%{
+         transform: translateY(0);
+      }
+
+     }
+     .main__baner p{
+      padding-bottom: 40px;
+   }
+   .inner__content__text p{
+      text-align: center;
+   }
+
+   .inner__content__text h4{
+      text-align: center;
+   }
+   .inner__content__text a{
+      position: relative;
+      left: 160px;
+   }
+   .second__banner{
+      text-align: center;
+      justify-content: center;
+      padding-right: 0;
+    }
+   
+    .second__banner p{
+      padding-top: 40px;
+    }
+   
+    .second__banner h3{
+      font-size: 21px;
+    }
+   
+    .three__banner{
+      text-align: center;
+      justify-content: center;
+      padding-right: 0;
+    }
+    .three__banner p{
+      padding-top: 40px;
+    }
+    .three__banner h3{
+      font-size: 21px;
+    }
+    .four__banner{
+      text-align: center;
+      justify-content: center;
+      padding-right: 0;
+    }
+    .four__banner P{
+      padding-top: 40px;
+    }
+    .four__banner h3{
+      font-size: 21px;
+    }
+
+
+
+
+
+
+
+
 }
 @media only screen and (max-width: 420px) {
  header .container nav ul{
@@ -38,6 +191,56 @@
     right: 10px;
     top: 25px;
  }
+
+ .second__banner{
+   text-align: center;
+ }
+
+ .second__banner p{
+   padding-top: 40px;
+ }
+
+ .second__banner h3{
+   font-size: 21px;
+ }
+
+ .three__banner{
+   text-align: center;
+ }
+ .three__banner p{
+   padding-top: 40px;
+ }
+ .three__banner h3{
+   font-size: 21px;
+ }
+ .four__banner{
+   text-align: center;
+ }
+ .four__banner P{
+   padding-top: 40px;
+ }
+ .four__banner h3{
+   font-size: 21px;
+ }
+
+ .main__baner p{
+   padding-bottom: 40px;
+}
+.inner__content__text p{
+   text-align: center;
+}
+
+.inner__content__text h4{
+   text-align: center;
+}
+.inner__content__text a{
+   position: relative;
+   left: 110px;
+}
+
+
+
+
 }
 @media only screen and (max-width: 375px) {
 
@@ -46,5 +249,18 @@
 
 }
 @media only screen and (max-width: 320px) {
+   .main__baner p{
+      padding-bottom: 40px;
+   }
+   .inner__content__text p{
+      text-align: center;
+   }
 
+   .inner__content__text h4{
+      text-align: center;
+   }
+   .inner__content__text a{
+      position: relative;
+      left: 60px;
+   }
 }
