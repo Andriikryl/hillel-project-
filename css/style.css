@@ -341,6 +341,21 @@ header nav ul li:last-of-type a{
     padding-top: 42px;
     align-items: center;
 }
+.clients__logo a{
+    min-width: 128px;
+    display: inline-block;
+}
+.clients__logo a img{
+    width: 100%;
+    display: block;
+}
+
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .four__banner{
     display: flex;
     justify-content: flex-end;
